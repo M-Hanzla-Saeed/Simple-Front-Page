@@ -1,8 +1,12 @@
+
+
 body{
     background-image: url(images.jfif);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    width: 100vh;
+    
 }
 .nav{
     list-style: none;
@@ -23,7 +27,10 @@ body{
 }
 .e{
     float: right;
-    margin-top:0px;
+    position: relative;
+    left: 720px;
+    bottom: 70px;
+    /* margin-top:0px; */
     border: 2px solid black;
     background-color: green;
 
